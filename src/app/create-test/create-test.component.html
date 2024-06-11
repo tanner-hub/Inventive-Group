@@ -1,0 +1,22 @@
+<div class="create-test">
+    <h1>Create a Custom Test</h1>
+    <label>Question {{questionSet.length + 1}}:</label>
+    <input type="text" id="q">
+    <label>Answer A:</label>
+    <input type="text" id="a1">
+    <label>Answer B:</label>
+    <input type="text" id="a2">
+    <label>Answer C:</label>
+    <input type="text" id="a3">
+    <label>Answer D:</label>
+    <input type="text" id="a4">
+    <div>
+        <label>Correct Answer: </label>
+        <input type="radio" id="f1">A
+        <input type="radio" id="f2">B
+        <input type="radio" id="f3">C
+        <input type="radio" id="f4">D
+    </div>
+    <button style="background-color: red; color:white;" (click)="addQuestion()">Add Question</button>
+    <button style="background-color: blue; color:white;" onclick="window.location.href=''">Compelete Test</button>
+</div>

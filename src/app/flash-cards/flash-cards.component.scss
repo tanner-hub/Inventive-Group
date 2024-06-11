@@ -1,0 +1,29 @@
+.flash-card {
+    width: 80%;
+    margin: auto;
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .button-container {
+        width: 100%;
+        justify-content: space-evenly;
+
+        button {
+            width: 31%;
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{   
+    "Overproduction": "To produce sooner, faster, or in greater quantities than customer demands.",
+    "Inventory": "Raw material, work in process, or finished goods which are not having value added to it.",
+    "Waiting": "People or parts that wait for a work cycle to be completed.",
+    "Motion": "Unnecessary movement of people, parts or machines within a process.",
+    "Transportation": "Unnecessary movement of people or parts between processes.",
+    "Defects": "Not right the first time. Repetition or correction of a process. Scrap, rework and defects.",
+    "Over Processing": "Processing beyond the standard required by the customer.",
+    "Talent": "Underutilizing people’s talents, skills, and knowledge."
+}

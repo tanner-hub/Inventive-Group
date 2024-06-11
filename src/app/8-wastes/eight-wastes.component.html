@@ -1,0 +1,26 @@
+<div class="eight-wastes">
+    <h1>Question: {{currentQuestion}}</h1>
+    <hr>
+    <div>
+        <input id="A" type="radio" (click)="setAnswer($event)">
+        <h2>A: {{currentAnswerOptions[0]}}</h2>
+    </div>
+    <div>
+        <input id="B" type="radio" (click)="setAnswer($event)">
+        <h2>B: {{currentAnswerOptions[1]}}</h2>
+    </div>
+    <div>
+        <input id="C" type="radio" (click)="setAnswer($event)">
+        <h2>C: {{currentAnswerOptions[2]}}</h2>
+    </div>
+    <div>
+        <input id="D" type="radio" (click)="setAnswer($event)">
+        <h2>D: {{currentAnswerOptions[3]}}</h2>
+    </div>
+
+    <button (click)="clearAnswers()">Clear Answers</button>
+    <button style="float:right;" (click)="onSubmit()">Submit</button>
+    <div class="users-score">
+        <h1 *ngIf="showScore">{{usersScore}}%</h1>
+    </div>
+</div>

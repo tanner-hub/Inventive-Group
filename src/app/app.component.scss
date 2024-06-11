@@ -1,0 +1,47 @@
+.head {
+    display: flex;
+    white-space: nowrap;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    background-color: red;
+
+    h1 {
+        width: min-content;
+        color: white;
+        background-color: transparent;
+        padding: 10px;
+        margin: 5px 0 0 5px;
+    }
+
+    .button-container {
+        margin: auto 0 auto auto;
+
+        button {
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+    }
+
+        button:hover {
+            background-color: rgb(0, 0, 0, 0.5);
+        }
+    }
+
+.linkable-body {
+    height: 70%;
+}
+
+.foot {
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+
+    p {
+        width: fit-content;
+        padding: 10px;
+        margin: 0 auto 5px 5px;
+    }
+}

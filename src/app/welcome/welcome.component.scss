@@ -1,0 +1,59 @@
+.welcome {
+    width: 80%;
+    margin: auto;
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 10px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    .wastes-option {
+        border: 1px solid grey;
+        background-color: lightgrey;
+        border-radius: 10px;
+        margin: 10px;
+        width: 30%;
+        height: 300px;
+    }
+
+    .custom-option {
+        border: 1px solid grey;
+        background-color: lightgrey;
+        border-radius: 10px;
+        margin: 10px;
+        width: 30%;
+        height: 300px;
+    }
+
+    .term-option {
+        border: 1px solid grey;
+        background-color: lightgrey;
+        border-radius: 10px;
+        margin: 10px;
+        width: 30%;
+        height: 300px;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+
+    h2 {
+        text-align: center;
+        margin: 50px auto auto auto;
+        color: white;
+    }
+
+    button {
+        padding: 5px;
+        width: 100%;
+        margin: auto;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        border: none;
+    }
+}

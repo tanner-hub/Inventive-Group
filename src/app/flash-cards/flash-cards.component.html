@@ -1,0 +1,12 @@
+<div class="flash-card">
+    <h1>{{cards[card_displayed][0]}}</h1>
+    <hr>
+    <div style="min-height: 200px;">
+        <h2 *ngIf="answer_exposed">{{cards[card_displayed][1]}}</h2>
+    </div>
+    <div class="button-container">
+        <button (click)="prevCard()">Previous Card</button>
+        <button (click)="exposeCard()">Show Definition</button>
+        <button (click)="nextCard()">Next Card</button>
+    </div>
+</div>
